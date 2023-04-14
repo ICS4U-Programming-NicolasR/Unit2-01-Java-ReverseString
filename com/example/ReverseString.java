@@ -1,3 +1,4 @@
+package com.example;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileWriter;
@@ -31,7 +32,7 @@ public final class ReverseString {
      * @return inputString
      *
      */
-    public static String reverse(String inputString) {
+    public static String reverse(final String inputString) {
         if (inputString.isEmpty()) {
             return inputString;
         }
